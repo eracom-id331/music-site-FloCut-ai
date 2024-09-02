@@ -3,20 +3,71 @@
    ============== */
 
 html {
-    color: #222;
-    background-color: #eee;
+  color: white;
+  background-color: black;
+  padding: 0 100px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.Hans {
+  height: 100vh; /* La div prendra toute la hauteur de la fenêtre */
+  background-image: url("chemin/vers/votre-image.jpg");
+  background-size: cover; /* L'image couvre tout l'espace disponible */
+  background-position: center; /* Centrer l'image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Couleur du texte pour qu'il contraste bien */
+  font-size: 2em;
+  text-align: center;
+}
+
+.grid h2 {
+  margin-top: 4px;
+  color: white;
+  font-weight: 400;
+}
+
+.grid img {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid {
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 /* =======================
    EXEMPLE de Media Query
    ======================= */
 
-@media only screen and (min-width: 800px) {
-
-    html {
-      background-color: #eae;
-    }
-
+@media only screen and (min-width: 900px) {
+  html {
+    background-color: black;
+  }
 }
 
+@media only screen and (min-width: 560px) {
+  .Apropos {
+    column-count: 2;
+  }
+}
 
+@media only screen and (min-width: 930px) {
+  .Apropos {
+    column-count: 3;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .Apropos {
+    column-count: 4;
+  }
+}

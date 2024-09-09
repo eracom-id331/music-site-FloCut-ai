@@ -5,24 +5,40 @@
 html {
   color: white;
   background-color: black;
+}
+
+.developpement {
   padding: 0 100px;
 }
 
 nav a {
   text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #dfebeb;
+  text-shadow: 2 2 2 red;
 }
 
-.Hans {
-  height: 100vh; /* La div prendra toute la hauteur de la fenêtre */
-  background-image: url("chemin/vers/votre-image.jpg");
+.menu {
+  display: flex;
+  gap: 7.8125rem;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  align-items: start;
+  justify-content: space-between;
+
+  aspect-ratio: 16/9;
+  /* padding-bottom: 45vh; */
+
+  background-image: url("Images/hans.webp");
   background-size: cover; /* L'image couvre tout l'espace disponible */
   background-position: center; /* Centrer l'image */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white; /* Couleur du texte pour qu'il contraste bien */
-  font-size: 2em;
-  text-align: center;
+  background-repeat: no-repeat;
 }
 
 .grid h2 {

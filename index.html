@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Titre</title>
+    <title>HansZimmer</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -16,19 +16,23 @@
             <h1> Hans Zimmer </h1>
             <nav class="menu">
 
-                <a href="#Accueil">Accueil</a>
-                <a href="#Apropos">A propos</a>
-                <a href="#Discographie">Discographie</a>
-                <a href="#Video">Video</a>
-                <a href="#Contact">Contact</a>
+                <a href="#apropos">A propos</a>
+                <a href="#discographie">Discographie</a>
+                <a href="#video">Video</a>
+                <a href="#contact">Contact</a>
 
             </nav>
         </div>
+        <div class="scroll-down">
+            <img src="Images/Sans-titre---1-[Récupéré].png" alt="Scroll down">
+        </div>
+
+
     </header>
 
 
     <div class="developpement">
-        <div class="Apropos">
+        <div id="apropos" class="Apropos">
             <h2>A propos</h2>
             <p>
                 Hans Florian Zimmer, dès son plus jeune âge, montre des talents de musicien autodidacte. Il apprend le
@@ -80,50 +84,50 @@
     </div>
 
     <div class="discographie">
-        <h2 class="titre">Discographie</h2>
+        <h2 id="discographie">Discographie</h2>
         <section class="grid">
             <div class="album">
                 <img src="Images/lion.jpg" alt="">
-                <h2>Le Roi Lion</h2>
+                <h3>Le Roi Lion</h3>
             </div>
             <div class="album">
                 <img src="Images/pirates.jpg" alt="">
-                <h2>Pirates des Caraïbes</h2>
+                <h3>Pirates des Caraïbes</h3>
             </div>
             <div class="album">
                 <img src="Images/batman.jpg" alt="">
-                <h2>Le Chevalier Noir</h2>
+                <h3>Le Chevalier Noir</h3>
             </div>
             <div class="album">
                 <img src="Images/gladiator.webp" alt="">
-                <h2>Gladiator</h2>
+                <h3>Gladiator</h3>
             </div>
             <div class="album">
                 <img src="Images/inception.jpeg" alt="">
-                <h2>Inception</h2>
+                <h3>Inception</h3>
             </div>
             <div class="album">
                 <img src="Images/interstellar.jpeg" alt="">
-                <h2>Interstellar</h2>
+                <h3>Interstellar</h3>
             </div>
             <div class="album">
                 <img src="Images/live.jpeg" alt="">
-                <h2>Concert live</h2>
+                <h3>Concert live</h3>
             </div>
             <div class="album">
                 <img src="Images/creator.jpeg" alt="">
-                <h2>The Creator</h2>
+                <h3>The Creator</h3>
             </div>
             <div class="album">
                 <img src="Images/dune2.jpg" alt="">
-                <h2>Dune Part two</h2>
+                <h3>Dune Part two</h3>
             </div>
         </section>
     </div>
 
     <div class="Video">
-        <h2> Video</h2>
-        <video width="1920" height="1080" controls>
+        <h2 id="video"> Video</h2>
+        <video width="1920" height="1080" controls poster="Images/Capture d’écran 2024-10-08 à 10.44.42.png">
             <source src="Video/Hans-Zimmer-Live-North-America-2024-Tour.mp4" type="video/mp4">
 
         </video>
@@ -132,7 +136,25 @@
 
     </div>
     </div>
-
+    <footer>
+        <div class="footer-content">
+            <div class="socials">
+                <a href="#" class="social-icon">
+                    <img src="Images/instagram-new.png" alt="Instagram">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="Images/facebook-new.png" alt="Facebook">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="Images/linkedin.png" alt="Linkedin">
+                </a>
+            </div>
+            <div class="footer-text">
+                <p id="contact">&copy; 2024 - Tous droits réservés | <em>Hans Zimmer</em></p>
+                <p>Design par <a href="#">Florian Cuttat</a></p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
